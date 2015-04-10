@@ -203,11 +203,6 @@ class Mailtrap {
 				break;
 			case 'PATCH':
 
-//				foreach ($args as $k=>$arg) {
-//					$va = '{'.$k.'}';
-//					$url = str_replace($va,$arg,$url);
-//				 }
-
 				// replace url by value
 				$sep_changed = false;
 				if (ini_get("arg_separator.output")!="&"){
