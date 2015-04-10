@@ -12,9 +12,9 @@ Copy files from respective foldes to relevant codeigniter repo.
 ## Usage
 
 In your codeigniter Controller. 
-#load lib
+### load lib
 $this->load->library('mailtrap');
-#call functions 
+### call functions 
 $this->mailtrap->getInboxById(42030)
 
 ## Contributing
